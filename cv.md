@@ -28,6 +28,7 @@ function sum(a, b) {
 let result = sum(1, 2);
 alert( result ); 
 ```
+***
 ## Education
 * Branch of Gubkin Russian State University of Oil and Gaz (National research University)
 * Courses
