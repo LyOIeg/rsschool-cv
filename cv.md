@@ -16,6 +16,7 @@ I want to learn JavaScript/Front-end so that I can  become a high-class speciali
 * HTML
 * CSS
 * JavaScript (Basic)
+* GitHub
 ***
 ## Code Example
 
