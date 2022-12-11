@@ -1,0 +1,17 @@
+body{
+    background-color: #ccc;
+   max-width: 1400px;
+   margin: 0px auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#one img{
+    width: 350px;
+    height: 330px;
+    border-radius: 50%;
+    object-fit: cover;
+}
