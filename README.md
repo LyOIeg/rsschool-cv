@@ -1,1 +1,3 @@
-# https://LyOleg.github.io/rsschool-cv/cv
+# rsschool-cv
+https://LyOleg.github.io/rsschool-cv/
+
