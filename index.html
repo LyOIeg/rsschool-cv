@@ -1,34 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my cv</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<div class="nav">
-<div class="header_logo">
-<a href="Logo">LOGO</a>
-</div>
-<div class="header_links">
-<ul>
-<li><a href="">1</a></li>
-<li><a href="">2</a></li>
-<li><a href="">3</a></li>
-<li><a href="">4</a></li>
-</ul>
-</div>
-</div>
-</header>
-<main>
-<section id="one">
-<div class="photo">
-<img src="photo.jpg" alt="">
-</div>
-</section>
-</main>
+    <div class="wrapper">
+        <header>
+            <div class="page_header">
+                <button><i class="fa fa-cube" aria-hidden="true"></i></button>
+                <div class="page-header_span">
+                    <span></span>
+                </div>
+                <nav class="page-header_nav">
+                    <ul class="site_navigation">
+                        <li class="cite-navigation_item">
+                            <a class="cite-navigation_link" href="#skills">Skills</a>
+                        </li>
+                        <li class="cite-navigation_item">
+                            <a class="cite-navigation_link" href="#project">Project</a>
+                        </li>
+                        <li class="cite-navigation_item">
+                            <a class="cite-navigation_link" href="#Experience">Experience</a>
+                        </li>
+                        <li class="cite-navigation_item">
+                            <a class="cite-navigation_link" href="#language">Languages</a>
+                        </li>
+                        <li class="cite-navigation_item">
+                            <a class="cite-navigation_link" href="#education">Education</a>
+                        </li>
+                        <li class="cite-navigation_item">
+                            <a class="cite-navigation_link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="cv">
+            <section class="info">
+                <h2 class="info-title">Information</h2>
+                <article class="header">
+                    <h2 class="photo-title">photo</h2>
+                    <figure class="photo">
+                        <img src="photo/photo.jpg" alt="">
+                    </figure>
+                </article>
+                <article class="contacts" id="contact">
+                    <h3 class="contacts-text">Contact Me</h3>
+                    <div class="contacts-underline"></div>
+                    <ul class="contacts-phone">
+                        <li class="contacts-phone_number"><i class="fa fa-volume-control-phone" aria-hidden="true"> Discord: OlegLyu</i></li>
+                    </ul>
+                    <ul class="contacts-telegram">
+                        <li class="contacts-telegram_icon">
+                           <i class="fa fa-telegram" aria-hidden="true"> Telegram: @OlegLyu</i>
+                        </li>
+                    </ul>
+                </article>
+                <article class="skills" id="skills">
+                    <h3 class="contacts-text">Skills</h3> 
+                    <div class="underline"></div>
+                    <ul class="skills-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Figma</li>
+                        <li>Bootstrap</li>
+                        <li>Git</li>
+                    </ul>
+                    <ul class="skills_laguage" id="language">
+                        <li>English: A2</li>
+                    </ul>                   
+                </article>
+            </section>
+            <section class="info-about_me">
+                <h1>Oleg Lyu</h1>
+                <p class="info-about_me_text">I want to learn JavaScript/Front-end so that I can become a high-class specialist to help people</p>
+                <div class="underine-grey">
+                    <article class="Education" id="education">
+                        <h2>Education</h2>
+                        <div class="education-description">
+                            <div class="education-description-item1">
+                                <div>
+                                    <span>05.12.2022</span>
+                                    <span>-</span>
+                                    <span>Till now</span>
+                                </div>
+                                <div>
+                                    <span>Rolling Scopes School</span>
+                                </div>
+                            </div>
+                            <div class="education-description-item2">
+                                 <div>
+                                    <span>06.04.2021</span>
+                                    <span>-</span>
+                                    <span>15.06.2022</span>
+                                </div>
+                                <div>
+                                    <span>SosIt Academy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <article class="experience" id="Experience">
+                    <h2>Experience</h2>
+                    <div class="experience-line"></div>
+                </article>
+                <article class="code-example">
+                    <h2>Code Example</h2>
+                    <p>function multiply(a, b) {</p>
+                    <p> return a * b;</p>
+                    <p>}</p>
+                </article>       
+            </section>
+        </main>
+        <footer>
+            <div class="page-footer">
+                <div class="page-footer_copyright">
+                    <p><i class="fa fa-copyright" aria-hidden="true"></i> by OlegLyu</p>
+                </div>
+                <ul class="page-footer_contacts">
+                    <li class="contact-list_item" id="project">
+                        <a href="https://github.com/LyOIeg?tab=repositories">GitHub</a>
+                    </li>
+                    <li class="contact-list_item">
+                        <a href="https://rs.school/js/"><img src="photo/images/rs_school_js.svg" alt=""></a>
+                    </li>
+                </ul>
+                <div class="page-foter_data">2022</div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
